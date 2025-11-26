@@ -15,14 +15,13 @@ It serves as a **clinical decision support tool** designed to predict the risk o
 ## 🚀 Key Features
 * **Hybrid Prediction Engine:**
     * **Clinical Module:** Uses **XGBoost** to analyze clinical and biological data (Age, TNM Stage, Smoking history, biomarkers).
-    * [cite_start]**Radiomic Module:** Uses **Fuzzy Logic** to interpret manual radiomic inputs (Entropy, Sphericity, Volume) without requiring heavy GPU infrastructure[cite: 37].
-* [cite_start]**Explainable AI (XAI):** Integrated **SHAP (SHapley Additive exPlanations)** values to provide clinicians with transparent reasoning behind every prediction[cite: 1073].
+    * **Radiomic Module:** Uses **Fuzzy Logic** to interpret manual radiomic inputs (Entropy, Sphericity, Volume) without requiring heavy GPU infrastructure.
+* **Explainable AI (XAI):** Integrated **SHAP (SHapley Additive exPlanations)** values to provide clinicians with transparent reasoning behind every prediction.
 * **User-Friendly GUI:** Developed with **PySide6**, featuring patient management, visualization tabs, and report generation.
-* [cite_start]**AI Assistant:** Includes "DILA", a voice assistant based on Llama 3 to guide users[cite: 854].
-<img width="1260" height="660" alt="One hope" src="https://github.com/user-attachments/assets/7cbf978d-ff1e-4968-9451-a294dddbc578" />
+* **AI Assistant:** Includes "DILA", a voice assistant based on Llama 3 to guide users.
 
 ## 📊 Model Performance
-[cite_start]The XGBoost model was rigorously validated using 5-fold cross-validation on the TCIA NSCLC Radiogenomics dataset[cite: 954].
+The XGBoost model was rigorously validated using 5-fold cross-validation on the TCIA NSCLC Radiogenomics dataset.
 
 | Metric | Score (Mean ± SD) |
 | :--- | :--- |
@@ -37,12 +36,14 @@ It serves as a **clinical decision support tool** designed to predict the risk o
 * **GUI Framework:** PySide6 (Qt)
 * **Machine Learning:** XGBoost, Scikit-learn, Pandas, NumPy.
 * **Explainability:** SHAP.
-* [cite_start]**Data Source:** [The Cancer Imaging Archive (TCIA) - NSCLC Radiogenomics](https://www.cancerimagingarchive.net/)[cite: 691].
+* **Data Source:** [The Cancer Imaging Archive (TCIA) - NSCLC Radiogenomics](https://www.cancerimagingarchive.net/).
 
 ## 🏥 Clinical Validation
-This project and its methodology have been reviewed and validated by **Dr. [cite_start]Rabah LAHMER**, Pneumologist (Ain M'lila, Algeria), confirming the clinical relevance of the selected features and the utility of the tool in oncological follow-up[cite: 886].
+This project and its methodology have been reviewed and validated by **Dr. Rabah LAHMER**, Pneumologist (Ain M'lila, Algeria), confirming the clinical relevance of the selected features and the utility of the tool in oncological follow-up.
 
 ## 📸 Screenshots
+![Page d'accueil](home.png)
+<img width="1260" height="660" alt="One hope" src="https://github.com/user-attachments/assets/605840ff-4ea3-45c9-ae77-2ce8e94e58fa" />
 
 
 ## 👥 Authors & Acknowledgments
