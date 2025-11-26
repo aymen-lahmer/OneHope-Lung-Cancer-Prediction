@@ -19,6 +19,7 @@ It serves as a **clinical decision support tool** designed to predict the risk o
 * [cite_start]**Explainable AI (XAI):** Integrated **SHAP (SHapley Additive exPlanations)** values to provide clinicians with transparent reasoning behind every prediction[cite: 1073].
 * **User-Friendly GUI:** Developed with **PySide6**, featuring patient management, visualization tabs, and report generation.
 * [cite_start]**AI Assistant:** Includes "DILA", a voice assistant based on Llama 3 to guide users[cite: 854].
+<img width="1260" height="660" alt="One hope" src="https://github.com/user-attachments/assets/7cbf978d-ff1e-4968-9451-a294dddbc578" />
 
 ## 📊 Model Performance
 [cite_start]The XGBoost model was rigorously validated using 5-fold cross-validation on the TCIA NSCLC Radiogenomics dataset[cite: 954].
@@ -42,7 +43,7 @@ It serves as a **clinical decision support tool** designed to predict the risk o
 This project and its methodology have been reviewed and validated by **Dr. [cite_start]Rabah LAHMER**, Pneumologist (Ain M'lila, Algeria), confirming the clinical relevance of the selected features and the utility of the tool in oncological follow-up[cite: 886].
 
 ## 📸 Screenshots
-*(Placeholder for screenshots of the One Hope Interface, e.g., Home Tab, Prediction Report, SHAP Graphs)*
+
 
 ## 👥 Authors & Acknowledgments
 * **Developer:** Mohammed Aymen LAHMER (State Engineer in Biotechnology)
