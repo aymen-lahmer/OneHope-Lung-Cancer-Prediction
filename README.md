@@ -72,3 +72,34 @@ graph TD
     I --> J[Final Recurrence Prediction]
     J --> K[SHAP Explanation & PDF Report]
 ```
+## 📊 Model Performance
+The XGBoost model was rigorously validated using 5-fold cross-validation on the TCIA NSCLC Radiogenomics dataset.
+
+| Metric | Score (Mean ± SD) |
+| :--- | :--- |
+| **Accuracy** | **82.1%** (± 4.1%) |
+| **AUC** | **0.898** (± 2.4%) |
+| **Precision**| 81.8% |
+| **Recall** | 82.7% |
+| **F1-Score** | 82.0% |
+
+## 🛠️ Tech Stack
+* **Core Language:** Python 3.9
+* **GUI Framework:** PySide6 (Qt)
+* **Machine Learning:** XGBoost, Scikit-learn, Pandas, NumPy.
+* **Explainability:** SHAP.
+* **Data Source:** [The Cancer Imaging Archive (TCIA) - NSCLC Radiogenomics](https://www.cancerimagingarchive.net/).
+
+## 🏥 Clinical Validation
+This project and its methodology have been reviewed and validated by **Dr. Rabah LAHMER**, Pneumologist (Ain M'lila, Algeria), confirming the clinical relevance of the selected features and the utility of the tool in oncological follow-up.
+
+## 📸 Interface Screenshots
+<img width="1260" height="660" alt="One hope performance" src="https://github.com/user-attachments/assets/605840ff-4ea3-45c9-ae77-2ce8e94e58fa" />
+
+## 👥 Authors & Acknowledgments
+* **Developer:** Mohammed Aymen LAHMER (State Engineer in Biotechnology)
+* **Supervisors:** Pr. Dalila NAIMI & Dr. Ahmed BOUZIANE (ENSB).
+* **Medical Expert:** Dr. Rabah LAHMER.
+
+---
+*© 2025 One Hope Project. All rights reserved.*
