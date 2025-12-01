@@ -52,8 +52,7 @@ OneHope-App/
 │   └── utils/                 # PDF Generation & Tools
 ├── assets/                    # Icons and Images
 └── requirements.txt           # Dependencies
-
-
+```
 ## 🔄 Workflow Diagram
 This flowchart illustrates the hybrid decision-making process implemented in the application.
 
