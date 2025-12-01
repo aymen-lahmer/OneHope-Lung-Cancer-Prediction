@@ -5,7 +5,7 @@
 [![GUI](https://img.shields.io/badge/Interface-PySide6-green)](https://doc.qt.io/qtforpython/)
 [![Status](https://img.shields.io/badge/Status-Completed-success)]()
 
-> **"Le meilleur moyen de prédire l'avenir, c'est de le créer."**
+> **"The best way to predict the future is to create it.."**
 
 ## 📌 Project Overview
 **One Hope** is a desktop application developed as an Engineering Graduation Project (PFE Startup) at *École Nationale Supérieure de Biotechnologie (ENSB)*. 
