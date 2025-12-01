@@ -52,3 +52,23 @@ OneHope-App/
 │   └── utils/                 # PDF Generation & Tools
 ├── assets/                    # Icons and Images
 └── requirements.txt           # Dependencies
+
+
+## 🔄 Workflow Diagram
+This flowchart illustrates the hybrid decision-making process implemented in the application.
+
+```mermaid
+graph TD
+    A[User Input] --> B{Data Type?}
+    B -- Clinical Data --> C[Data Preprocessing]
+    C --> D[XGBoost Model]
+    D --> E[Clinical Risk Probability]
+    
+    B -- Radiomic Features --> F[Fuzzification]
+    F --> G[Fuzzy Inference Engine]
+    G --> H[Radiomic Risk Score]
+    
+    E --> I[Fusion Module]
+    H --> I
+    I --> J[Final Recurrence Prediction]
+    J --> K[SHAP Explanation & PDF Report]
